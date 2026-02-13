@@ -25,7 +25,7 @@ const scenes = [
   },
   {
     type: "letter",
-    media: "assets/photo1.jpg",
+    media: "assets/image.png",
     title: "Happy valentine's day, my sweetheart.",
     subtitle: "i wrote this for you deep from my heart, read it slowly, okay?",
     extra: {
