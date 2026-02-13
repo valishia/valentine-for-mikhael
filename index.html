@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>💌 valentine for you</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="rain-layer" id="rainLayer" aria-hidden="true"></div>
+
+  <main class="screen">
+    <section class="card" id="card" aria-live="polite">
+      <div class="topbar">
+        <button class="iconbtn" id="audioBtn" type="button" aria-label="Toggle audio">
+          🔈
+        </button>
+      </div>
+
+      <div class="media-wrap" id="mediaWrap"></div>
+
+      <h1 class="title" id="title"></h1>
+      <p class="subtitle" id="subtitle"></p>
+
+      <div class="content" id="content"></div>
+
+      <div class="actions" id="actions"></div>
+      <div class="progress" id="progress" aria-hidden="true"></div>
+    </section>
+  </main>
+
+  <audio id="bgm" loop preload="auto"></audio>
+  <audio id="sfxClick" preload="auto"></audio>
+  <audio id="sfxType" preload="auto"></audio>
+
+  <script src="app.js"></script>
+</body>
+</html>
